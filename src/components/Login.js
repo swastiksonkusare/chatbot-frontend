@@ -21,7 +21,7 @@ const Login = ({ onIdSubmit }) => {
       style={{ height: "100vh" }}
     >
       <Form onSubmit={handleSubmit} className="w-100">
-        <Form.Group>
+        <Form.Group className="mb-2">
           <Form.Label>Enter Your Id</Form.Label>
           <Form.Control type="text" ref={idRef} required />
         </Form.Group>
